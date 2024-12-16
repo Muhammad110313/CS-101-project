@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cstdlib>
-#include <string>
 using namespace std;
 
 void convertCurrency(float *amount, float conversionRate) 
@@ -21,7 +19,7 @@ int main() {
     float conversionRate;
     bool validInput = true;
 
-    float rates[] = {284.53, 302.21, 351.14, 2.07}; 
+    float rates[4] = {284.53, 302.21, 351.14, 2.07}; 
 
     displayCurrencies();
 
